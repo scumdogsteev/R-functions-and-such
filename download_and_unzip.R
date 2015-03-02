@@ -25,6 +25,7 @@ downLoad <- function(dir = "data", url, file) {
             download.file(url, file, method = "curl", mode="wb")
         }
     }
+    ## if the directory exists and/or if the file is downloaded,
 }
 
 downloadUnzip <- function(dir = "data", url, file) {
@@ -41,8 +42,8 @@ downloadUnzip <- function(dir = "data", url, file) {
         }
         ## unzip the file if the directory doesn't already exist
         unzip(file)     
-        ## if the directory exists and/or if the zip file is downloaded/unzipped
-        ## or a previously downloaded version of the zip file is unzipped,
-        ## proceed with execution of the script
     }
+    ## if the directory exists and/or if the zip file is downloaded/unzipped
+    ## or a previously downloaded version of the zip file is unzipped,
+    ## proceed with execution of the script
 }
