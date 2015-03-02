@@ -10,7 +10,8 @@
 ## "downloadUnzip" checks whether the zip file exists locally.  if so, it
 ## unzips it.  if not, it downloads it and unzips.
 ##
-## to do:  add error checking including what to do if the user is offline
+## to do:  1) add error checking including what to do if the user is offline
+##         2) add option of changing url from "https" to "http"
 
 downLoad <- function(dir = "data", url, file) {
     ## check if the expected directory exists in the working directory.
