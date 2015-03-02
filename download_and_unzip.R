@@ -1,6 +1,16 @@
-## two functions that download and/or unzip a file from the Internet when
-## given a local directory (default name is "data"), a url, and an expected
-## local file name
+## download_and_unzip.R
+## by Steve Myles
+## 2 March 2015
+##
+## two related functions that download and/or unzip a file from the Internet 
+## when given a local directory (default name is "data"), a url, and an 
+## expected local file name.
+##
+## "downLoad" checks whether the file exists locally and downloads it if not.
+## "downloadUnzip" checks whether the zip file exists locally.  if so, it
+## unzips it.  if not, it downloads it and unzips.
+##
+## to do:  add error checking including what to do if the user is offline
 
 downLoad <- function(dir = "data", url, file) {
     ## check if the expected directory exists in the working directory.
