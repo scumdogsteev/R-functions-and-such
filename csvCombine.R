@@ -2,8 +2,9 @@
 ## by Steve Myles
 ## 2 March 2015
 ##
-## "csvCombine" creates a data frame from a user-specified directory's files.
-## user can specify how many files to combine; default is all in "directory."
+## "csvCombine" creates a data frame from a user-specified directory's (csv) 
+## files. the user can specify how many files to combine (default is all in 
+## "directory").
 ##
 ## to do:  1) extend to other file types
 ##         2) error-checking to exclude files of the wrong type
