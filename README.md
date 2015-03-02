@@ -14,5 +14,6 @@ Basically, this is for me to keep track of things I don't want to have to find/r
 
 ### scripts
 
+* [csvCombine.R](https://github.com/scumdogsteev/R-functions-and-such/blob/master/csvCombine.R) - create a data frame from a user-specified directory's (csv) files
 * [download_and_unzip.R](https://github.com/scumdogsteev/R-functions-and-such/blob/master/download_and_unzip.R) - download and/or unzip data files from the Internet
 * [pkgInst.R](https://github.com/scumdogsteev/R-functions-and-such/blob/master/pkgInst.R) - check whether a set of packages are installed and, if not, install them
