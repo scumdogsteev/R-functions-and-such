@@ -14,5 +14,5 @@ Basically, this is for me to keep track of things I don't want to have to find/r
 
 ### scripts
 
-* "[download_and_unzip.R](https://github.com/scumdogsteev/R-functions-and-such/blob/master/download_and_unzip.R)" - simple scripts for downloading and/or unzipping data files from the Internet
-* "[pkgInst.R](https://github.com/scumdogsteev/R-functions-and-such/blob/master/pkgInst.R)" - simple script to check whether a set of packages are installed and, if not, install them
+* [download_and_unzip.R](https://github.com/scumdogsteev/R-functions-and-such/blob/master/download_and_unzip.R) - download and/or unzip data files from the Internet
+* [pkgInst.R](https://github.com/scumdogsteev/R-functions-and-such/blob/master/pkgInst.R) - check whether a set of packages are installed and, if not, install them
