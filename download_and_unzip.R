@@ -1,5 +1,6 @@
 ## download_and_unzip.R
 ## by Steve Myles
+## http://steve.mylesandmyles.info/
 ## 2 March 2015
 ##
 ## two related functions that download and/or unzip a file from the Internet 
