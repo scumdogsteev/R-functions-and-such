@@ -1,11 +1,12 @@
 ## pkgInst.R
 ## by Steve Myles
+## http://steve.mylesandmyles.info/
 ## 2 March 2015
 ##
 ## "pkgInst" is a function that checks whether a set of packages are 
 ## installed and, if not, it installs them.  i is a set of packages.
 ## 
-## based on this response from Stack Overflow:
+## almost completely based on this response from Stack Overflow:
 ## http://stackoverflow.com/questions/4090169/elegant-way-to-check-for-missing-packages-and-install-them/19870272#19870272
 
 pkgInst <- function(x) {
