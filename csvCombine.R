@@ -1,5 +1,6 @@
 ## csvCombine.R
 ## by Steve Myles
+## http://steve.mylesandmyles.info/
 ## 2 March 2015
 ##
 ## "csvCombine" creates a data frame from a user-specified directory's (csv) 
