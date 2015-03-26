@@ -7,7 +7,7 @@
 ## installed and, if not, it installs them.  i is a set of packages.
 ## 
 ## this function is called as follows:
-## pkgInst(c("pkg1", "pkg2", "pkg3",..., "pkgN"))
+## pkgInst(c("pkg1", "pkg2", "pkg3", ..., "pkgN"))
 ## where pkg1 through pkgN are the names of the required packages.
 ##
 ## almost completely based on this response from Stack Overflow:
