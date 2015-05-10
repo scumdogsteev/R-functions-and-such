@@ -1,10 +1,10 @@
 ## pkgInst.R
 ## by Steve Myles
 ## http://steve.mylesandmyles.info/
-## 2 March 2015 (updated 20 March 2015)
+## 2 March 2015 (updated 10 May 2015)
 ##
 ## "pkgInst" is a function that checks whether a set of packages are 
-## installed and, if not, it installs them.  i is a set of packages.
+## installed and, if not, it installs them.  x is a set of packages.
 ## 
 ## this function is called as follows:
 ## pkgInst(c("pkg1", "pkg2", "pkg3", ..., "pkgN"))
