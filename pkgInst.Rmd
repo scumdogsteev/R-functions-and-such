@@ -9,7 +9,7 @@ This function is called as follows:
 `pkgInst(c("pkg1", "pkg2", "pkg3", ..., "pkgN"))`
 where pkg1 through pkgN are the names of the required packages.
 
-This is almost completely based on [this response](http://stackoverflow.com/questions/4090169/elegant-way-to-check-for-missing-packages-and-install-them/19870272#19870272).
+This is almost completely based on [this response](http://stackoverflow.com/questions/4090169/elegant-way-to-check-for-missing-packages-and-install-them/19870272#19870272)
 from Stack Overflow.
 
 ```{r pkgInst}
