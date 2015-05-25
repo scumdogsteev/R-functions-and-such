@@ -22,6 +22,7 @@ create a data frame from a user-specified directory's (csv) files
 * [download_and_unzip](https://github.com/scumdogsteev/R-functions-and-such/blob/master/download_and_unzip.R) - 
 download and/or unzip data files from the Internet
 * [pkgInst](https://github.com/scumdogsteev/R-functions-and-such/blob/master/pkgInst.Rmd) - 
-check whether a set of packages are installed and, if not, install them
+check whether a set of packages are loaded and/or installed and, if not, 
+load/install them
 * [printCurrency](https://github.com/scumdogsteev/R-functions-and-such/blob/master/printCurrency.Rmd) - 
 print a number formatted as currency, including an optional multiplier (e.g., M for millions)
