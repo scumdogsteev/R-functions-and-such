@@ -17,8 +17,8 @@ printCurrency <- function(value, currency.sym = "$", digits = 2, sep = ",",
                         ifelse(multiplier == 10^2, "H",
                                ifelse(multiplier == 10^3, "K",
                                       ifelse(multiplier == 10^6, "M",
-                                             ifelse(multiplier == 10^9, 
-                                                    "B", "")))))
+                                             ifelse(multiplier == 10^9, "B", 
+                                                    "")))))
      paste( currency.sym, formatC(value / multiplier, format = "f", 
                                   big.mark = sep, digits = digits, 
                                   decimal.mark=decimal), mult.sym, sep="")
