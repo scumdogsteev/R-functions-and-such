@@ -25,4 +25,5 @@ download and/or unzip data files from the Internet
 check whether a set of packages are loaded and/or installed and, if not, 
 load/install them
 * [printCurrency](https://github.com/scumdogsteev/R-functions-and-such/blob/master/printCurrency.Rmd) - 
-print a number formatted as currency, including an optional multiplier (e.g., M for millions)
+print a number formatted as currency, including an optional multiplier (e.g., M 
+for millions)
