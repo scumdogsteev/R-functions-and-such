@@ -17,13 +17,13 @@ find/recreate each time I want to use them.
 
 ### scripts
 
-* [csvCombine](csvCombine/csvCombine.md) (2015-03-02) - create a data frame from 
+* [csvCombine](csvCombine/) (2015-03-02) - create a data frame from 
   a user-specified directory's (csv) files
-* [download_and_unzip](download_and_unzip/download_and_unzip.md) (2015-03-02) - 
+* [download_and_unzip](download_and_unzip/) (2015-03-02) - 
   download and/or unzip data files from the Internet
-* [pkgInst](pkgInst/pkgInst.md) (2015-03-02) - check whether a set of packages
+* [pkgInst](pkgInst/) (2015-03-02) - check whether a set of packages
   are loaded and/or installed and, if not, load/install them
-* [printCurrency](printCurrency/printCurrency.md) (2015-05-24) - print a number 
+* [printCurrency](printCurrency/) (2015-05-24) - print a number 
   formatted as currency, including an optional multiplier (e.g., M for millions)
-* [printMult](printMult/printMult.md) (2015-06-04) - print a number with a 
+* [printMult](printMult/) (2015-06-04) - print a number with a 
   multiplier (e.g., M for millions)
