@@ -27,3 +27,4 @@ load/install them
 * [printCurrency](https://github.com/scumdogsteev/R-functions-and-such/blob/master/printCurrency.Rmd) - 
 print a number formatted as currency, including an optional multiplier (e.g., M 
 for millions)
+* [printMult](https://github.com/scumdogsteev/R-functions-and-such/blob/master/printMult.Rmd) - print a number with a multiplier (e.g., M for millions)
