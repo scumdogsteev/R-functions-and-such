@@ -40,7 +40,7 @@ printCurrency(10000, multiplier = 1000)
 ```
 
 ```r
-## create a variable to pass to printMult
+## create a variable to pass to printCurrency
 x <- 123456789
 
 ## multiplier can be numeric or in scientific notation
