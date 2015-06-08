@@ -2,7 +2,7 @@
 ## by Steve Myles
 ## http://steve.mylesandmyles.info/
 ## 2 March 2015 (updated 4 June 2015)
-## documentation:  https://github.com/scumdogsteev/R-functions-and-such/blob/master/csvCombine/README.md
+## documentation:  https://github.com/scumdogsteev/R-functions-and-such/blob/master/csvCombine/
 ##
 ## "csvCombine" creates a data frame from a user-specified directory's (csv) 
 ## files. the user can specify how many files to combine (default is all in 
