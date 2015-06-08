@@ -1,5 +1,6 @@
 ## printCurrency
-## by [Steve Myles](http://steve.mylesandmyles.info/)
+## by Steve Myles
+## http://steve.mylesandmyles.info/
 ## 24 May 2015 (updated 4 June 2015)
 ## documentation:  https://github.com/scumdogsteev/R-functions-and-such/tree/master/printCurrency/
 ##
