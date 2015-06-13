@@ -2,7 +2,7 @@
 ## by Steve Myles
 ## http://steve.mylesandmyles.info/
 ## 24 May 2015 (updated 4 June 2015)
-## documentation:  https://github.com/scumdogsteev/R-functions-and-such/tree/master/printCurrency/
+## documentation:  http://projects.mylesandmyles.info/R-functions-and-such/printCurrency/printCurrency.html
 ##
 ## The following function, `printCurrency`, properly formats numbers as 
 ## currency.

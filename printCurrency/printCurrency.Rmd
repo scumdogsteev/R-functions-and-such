@@ -1,7 +1,16 @@
-### printCurrency
-##### by [Steve Myles](http://steve.mylesandmyles.info/) | 24 May 2015 (updated 4 June 2015)
-##### License:  [MIT License](https://github.com/scumdogsteev/R-functions-and-such/blob/master/LICENSE)
+---
+title: "printCurrency"
+author: "Steve Myles"
+date: "24 May 2015 (updated 11 June 2015)"
+output:
+  pdf_document:
+    toc: no
+  html_document:
+    toc: no
+---
 ##### based almost entirely on [this Stack Overflow response](http://stackoverflow.com/a/23833928)
+##### [R script](printCurrency.R) | [Rmd](printCurrency.Rmd) | [pdf](printCurrency.pdf) | [License](https://github.com/scumdogsteev/R-functions-and-such/blob/master/LICENSE)
+$\\$
 
 The following function, `printCurrency`, properly formats numbers as currency.
 
@@ -32,7 +41,7 @@ Examples:
 ## simple 1000s multiplier
 printCurrency(10000, multiplier = 1000)
 
-## create a variable to pass to printCurrency
+## create a variable to pass to printMult
 x <- 123456789
 
 ## multiplier can be numeric or in scientific notation
