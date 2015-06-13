@@ -3,16 +3,17 @@ title: "pkgInst"
 author: "Steve Myles"
 date: "2 March 2015 (updated 11 June 2015)"
 output:
-  html_document:
-    toc: no
   pdf_document:
+    toc: no
+  html_document:
     toc: no
 ---
 ##### based almost entirely on [this Stack Overflow response](http://stackoverflow.com/questions/4090169/elegant-way-to-check-for-missing-packages-and-install-them/19870272#19870272)
-##### [R script](pkgInst.R) | [Rmd](pkgInst.Rmd) | [pdf](pkgInst.pdf) | [License](https://github.com/scumdogsteev/R-functions-and-such/blob/master/LICENSE)
+##### [R script](http://projects.mylesandmyles.info/R-functions-and-such/pkgInst/pkgInst.R) | [Rmd](http://projects.mylesandmyles.info/R-functions-and-such/pkgInst/pkgInst.Rmd) | [pdf](http://projects.mylesandmyles.info/R-functions-and-such/pkgInst/pkgInst.pdf) | [License](https://github.com/scumdogsteev/R-functions-and-such/blob/master/LICENSE)
+$\\$
 
 `pkgInst` is a function that checks whether a set of packages are installed and,
-if not, it installs them and loads them into memory.  x is a vector of package
+if not, it installs them and loads them into memory.  `x` is a vector of package
 names.
  
 This function is called as follows:
@@ -36,8 +37,8 @@ pkgInst <- function(x) {
 
 Example:
 ```{r example, echo = TRUE}
-## start with a vector of package names, some of which have previously been
-## installed and some of which (qcc in this case) have not
+## start with a vector of package names, one of which ("qcc" in this case) was
+## not previously installed.
 pkgs <- c("dplyr", "qcc", "reshape2")
 
 ## run pkgInst for this vector of packages to load them into memory and to 

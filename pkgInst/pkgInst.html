@@ -71,8 +71,8 @@ img {
 <h5>based almost entirely on <a href="http://stackoverflow.com/questions/4090169/elegant-way-to-check-for-missing-packages-and-install-them/19870272#19870272">this Stack Overflow response</a></h5>
 </div>
 <div id="r-script-rmd-pdf-license" class="section level5">
-<h5><a href="pkgInst.R">R script</a> | <a href="pkgInst.Rmd">Rmd</a> | <a href="pkgInst.pdf">pdf</a> | <a href="https://github.com/scumdogsteev/R-functions-and-such/blob/master/LICENSE">License</a></h5>
-<p><code>pkgInst</code> is a function that checks whether a set of packages are installed and, if not, it installs them and loads them into memory. x is a vector of package names.</p>
+<h5><a href="http://projects.mylesandmyles.info/R-functions-and-such/pkgInst/pkgInst.R">R script</a> | <a href="http://projects.mylesandmyles.info/R-functions-and-such/pkgInst/pkgInst.Rmd">Rmd</a> | <a href="http://projects.mylesandmyles.info/R-functions-and-such/pkgInst/pkgInst.pdf">pdf</a> | <a href="https://github.com/scumdogsteev/R-functions-and-such/blob/master/LICENSE">License</a></h5>
+<p><code>pkgInst</code> is a function that checks whether a set of packages are installed and, if not, it installs them and loads them into memory. <code>x</code> is a vector of package names.</p>
 <p>This function is called as follows: <code>pkgInst(c(&quot;pkg1&quot;, &quot;pkg2&quot;, &quot;pkg3&quot;, ..., &quot;pkgN&quot;))</code> where pkg1 through pkgN are the names of the required packages.</p>
 <pre class="r"><code>pkgInst &lt;- function(x) {
     for (i in x) {
@@ -87,8 +87,8 @@ img {
     }
 }</code></pre>
 <p>Example:</p>
-<pre class="r"><code>## start with a vector of package names, some of which have previously been
-## installed and some of which (qcc in this case) have not
+<pre class="r"><code>## start with a vector of package names, one of which (&quot;qcc&quot; in this case) was
+## not previously installed.
 pkgs &lt;- c(&quot;dplyr&quot;, &quot;qcc&quot;, &quot;reshape2&quot;)
 
 ## run pkgInst for this vector of packages to load them into memory and to 
@@ -106,7 +106,13 @@ pkgInst(pkgs)</code></pre>
 ## 
 ##     intersect, setdiff, setequal, union
 ## 
-## Loading required package: qcc
+## Loading required package: qcc</code></pre>
+<pre><code>## Warning in library(package, lib.loc = lib.loc, character.only = TRUE,
+## logical.return = TRUE, : there is no package called 'qcc'</code></pre>
+<pre><code>## 
+## The downloaded binary packages are in
+##  /var/folders/b6/r3ss83k50r52yc4db9b95y2m0000gp/T//RtmpAxZuMd/downloaded_packages</code></pre>
+<pre><code>## Loading required package: qcc
 ## Package 'qcc', version 2.6
 ## Type 'citation(&quot;qcc&quot;)' for citing this R package in publications.
 ## Loading required package: reshape2</code></pre>
