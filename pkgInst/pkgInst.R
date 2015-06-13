@@ -1,8 +1,8 @@
 ## pkgInst.R
 ## by Steve Myles
 ## http://steve.mylesandmyles.info/
-## 2 March 2015 (updated 4 June 2015)
-## documentation:  https://github.com/scumdogsteev/R-functions-and-such/tree/master/pkgInst/
+## 2 March 2015 (updated 11 June 2015)
+## documentation:  http://projects.mylesandmyles.info/R-functions-and-such/pkgInst/pkgInst.html
 ##
 ## "pkgInst" is a function that checks whether a set of packages are 
 ## installed and, if not, it installs them and loads them into 
@@ -20,7 +20,8 @@ pkgInst <- function(x) {
         ## "require" returns TRUE invisibly if it was able to load package
         if (!require(i, character.only = TRUE)) {
             ## if package was not able to be loaded, install it
-            install.packages(i, dependencies = TRUE)
+            install.packages(i, dependencies = TRUE, 
+                             repos="http://cran.r-project.org/")
             ## load package after installing
             require (i, character.only = TRUE)
         }

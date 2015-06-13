@@ -1,6 +1,15 @@
-### csvCombine
-##### by [Steve Myles](http://steve.mylesandmyles.info/) | 2 March 2015 (updated 4 June 2015)
-##### License:  [MIT License](https://github.com/scumdogsteev/R-functions-and-such/blob/master/LICENSE)
+---
+title: "csvCombine"
+author: "Steve Myles"
+date: "2 March 2015 (updated 11 June 2015)"
+output:
+  pdf_document:
+    toc: no
+  html_document:
+    toc: no
+---
+##### [R script](csvCombine.R) | [Rmd](csvCombine.Rmd) | [pdf](csvCombine.pdf) | [License](https://github.com/scumdogsteev/R-functions-and-such/blob/master/LICENSE)
+$\\$
 
 `csvCombine` creates a data frame from a user-specified directory's (csv) files. 
 The user can specify how many files to combine (default is all in `directory`).
