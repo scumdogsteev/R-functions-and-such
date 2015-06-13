@@ -3,13 +3,12 @@ title: "download_and_unzip"
 author: "Steve Myles"
 date: "2 March 2015 (updated 11 June 2015)"
 output:
-  pdf_document:
-    toc: no
   html_document:
+    toc: no
+  pdf_document:
     toc: no
 ---
 ##### [R script](download_and_unzip.R) | [Rmd](download_and_unzip.Rmd) | [pdf](download_and_unzip.pdf) | [License](https://github.com/scumdogsteev/R-functions-and-such/blob/master/LICENSE)
-$\\$
 
 These two related functions download and/or unzip a file from the Internet when 
 given a local directory (default name is `data`), a url, and an expected local 

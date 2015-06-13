@@ -3,14 +3,13 @@ title: "printCurrency"
 author: "Steve Myles"
 date: "24 May 2015 (updated 11 June 2015)"
 output:
-  pdf_document:
-    toc: no
   html_document:
+    toc: no
+  pdf_document:
     toc: no
 ---
 ##### based almost entirely on [this Stack Overflow response](http://stackoverflow.com/a/23833928)
 ##### [R script](printCurrency.R) | [Rmd](printCurrency.Rmd) | [pdf](printCurrency.pdf) | [License](https://github.com/scumdogsteev/R-functions-and-such/blob/master/LICENSE)
-$\\$
 
 The following function, `printCurrency`, properly formats numbers as currency.
 

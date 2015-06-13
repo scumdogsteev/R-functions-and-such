@@ -72,7 +72,6 @@ img {
 </div>
 <div id="r-script-rmd-pdf-license" class="section level5">
 <h5><a href="printCurrency.R">R script</a> | <a href="printCurrency.Rmd">Rmd</a> | <a href="printCurrency.pdf">pdf</a> | <a href="https://github.com/scumdogsteev/R-functions-and-such/blob/master/LICENSE">License</a></h5>
-<p><span class="math">\(\\\)</span></p>
 <p>The following function, <code>printCurrency</code>, properly formats numbers as currency.</p>
 <p><code>multiplier</code> is designed to allow for easy formatting of tens, hundreds, thousands, millions, or billions by displaying a multiplier-specific letter after the formatted number. <code>multiplier</code> works for values other than those listed but does not currently display a symbol after the formatted number. The default is 1 (i.e., the number is displayed as entered with currency formatting).</p>
 <pre class="r"><code>printCurrency &lt;- function(value, currency.sym = &quot;$&quot;, digits = 2, sep = &quot;,&quot;,
@@ -102,8 +101,8 @@ printCurrency(x, multiplier = 10^6, digits = 0)</code></pre>
 printCurrency(1000, multiplier = 123)</code></pre>
 <pre><code>## [1] &quot;$8.13&quot;</code></pre>
 <pre class="r"><code>## passing an alternate currency symbol
-printCurrency(10121333, digits = 1, multiplier = 1000000, currency.sym = &quot;€&quot;)</code></pre>
-<pre><code>## [1] &quot;€10.1M&quot;</code></pre>
+printCurrency(10121333, digits = 1, multiplier = 1000000, currency.sym = &quot;â¬&quot;)</code></pre>
+<pre><code>## [1] &quot;â¬10.1M&quot;</code></pre>
 </div>
 
 

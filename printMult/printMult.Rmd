@@ -3,13 +3,12 @@ title: "printMult"
 author: "Steve Myles"
 date: "4 June 2015 (updated 11 June 2015)"
 output:
-  pdf_document:
-    toc: no
   html_document:
+    toc: no
+  pdf_document:
     toc: no
 ---
 ##### [R script](printMult.R) | [Rmd](printMult.Rmd) | [pdf](printMult.pdf) | [License](https://github.com/scumdogsteev/R-functions-and-such/blob/master/LICENSE)
-$\\$
 
 The following function, `printMult`, displays a number with an added 
 multiplier.  `multiplier` is designed to allow for easy formatting of tens, 

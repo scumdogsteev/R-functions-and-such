@@ -3,14 +3,13 @@ title: "pkgInst"
 author: "Steve Myles"
 date: "2 March 2015 (updated 11 June 2015)"
 output:
-  pdf_document:
-    toc: no
   html_document:
+    toc: no
+  pdf_document:
     toc: no
 ---
 ##### based almost entirely on [this Stack Overflow response](http://stackoverflow.com/questions/4090169/elegant-way-to-check-for-missing-packages-and-install-them/19870272#19870272)
 ##### [R script](pkgInst.R) | [Rmd](pkgInst.Rmd) | [pdf](pkgInst.pdf) | [License](https://github.com/scumdogsteev/R-functions-and-such/blob/master/LICENSE)
-$\\$
 
 `pkgInst` is a function that checks whether a set of packages are installed and,
 if not, it installs them and loads them into memory.  x is a vector of package
