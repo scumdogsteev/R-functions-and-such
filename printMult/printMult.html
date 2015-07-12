@@ -63,7 +63,7 @@ img {
 <div id="header">
 <h1 class="title">printMult</h1>
 <h4 class="author"><em>Steve Myles</em></h4>
-<h4 class="date"><em>4 June 2015 (updated 11 June 2015)</em></h4>
+<h4 class="date"><em>4 June 2015 (updated 11 July 2015)</em></h4>
 </div>
 
 
@@ -73,13 +73,14 @@ img {
 <pre class="r"><code>printMult &lt;- function(value, digits = 2, sep = &quot;,&quot;, decimal=&quot;.&quot;, multiplier = 1, 
                       mult.sym = &quot;&quot;) {     
     mult.sym &lt;- ifelse(multiplier == 10^1, &quot; tens&quot;, 
-                       ifelse(multiplier == 10^2, &quot;H&quot;,
-                              ifelse(multiplier == 10^3, &quot;K&quot;,
-                                     ifelse(multiplier == 10^6, &quot;M&quot;,
-                                            ifelse(multiplier == 10^9, &quot;B&quot;, 
-                                                   &quot;&quot;)))))
+                       ifelse(multiplier == 12, &quot; doz.&quot;,
+                              ifelse(multiplier == 10^2, &quot;H&quot;,
+                                     ifelse(multiplier == 10^3, &quot;K&quot;,
+                                            ifelse(multiplier == 10^6, &quot;M&quot;,
+                                                   ifelse(multiplier == 10^9, 
+                                                          &quot;B&quot;, &quot;&quot;))))))
     paste(formatC(value / multiplier, format = &quot;f&quot;, big.mark = sep, digits = digits, 
-                 decimal.mark=decimal), mult.sym, sep=&quot;&quot;)
+                  decimal.mark=decimal), mult.sym, sep=&quot;&quot;)
 }</code></pre>
 <p>Examples:</p>
 <pre class="r"><code>## simple 1000s multiplier

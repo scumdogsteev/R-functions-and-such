@@ -1,11 +1,11 @@
 ---
 title: "printMult"
 author: "Steve Myles"
-date: "4 June 2015 (updated 11 June 2015)"
+date: "4 June 2015 (updated 11 July 2015)"
 output:
-  pdf_document:
-    toc: no
   html_document:
+    toc: no
+  pdf_document:
     toc: no
 ---
 ##### [R script](http://projects.mylesandmyles.info/R-functions-and-such/printMult/printMult.R) | [Rmd](http://projects.mylesandmyles.info/R-functions-and-such/printMult/printMult.Rmd) | [pdf](http://projects.mylesandmyles.info/R-functions-and-such/printMult/printMult.pdf) | [License](https://github.com/scumdogsteev/R-functions-and-such/blob/master/LICENSE)
@@ -22,13 +22,14 @@ The default is 1 (i.e., the number is displayed as entered).
 printMult <- function(value, digits = 2, sep = ",", decimal=".", multiplier = 1, 
                       mult.sym = "") {     
     mult.sym <- ifelse(multiplier == 10^1, " tens", 
-                       ifelse(multiplier == 10^2, "H",
-                              ifelse(multiplier == 10^3, "K",
-                                     ifelse(multiplier == 10^6, "M",
-                                            ifelse(multiplier == 10^9, "B", 
-                                                   "")))))
+                       ifelse(multiplier == 12, " doz.",
+                              ifelse(multiplier == 10^2, "H",
+                                     ifelse(multiplier == 10^3, "K",
+                                            ifelse(multiplier == 10^6, "M",
+                                                   ifelse(multiplier == 10^9, 
+                                                          "B", ""))))))
     paste(formatC(value / multiplier, format = "f", big.mark = sep, digits = digits, 
-                 decimal.mark=decimal), mult.sym, sep="")
+                  decimal.mark=decimal), mult.sym, sep="")
 }
 ```
 
