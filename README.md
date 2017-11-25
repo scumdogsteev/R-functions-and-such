@@ -18,7 +18,7 @@ find/recreate each time I want to use them.
 
 <p>-[ <strong>blog post</strong> ]-</p>
 
-<p>There is <a href="http://steve.mylesandmyles.info/projects/r-functions-and-such">a blog post</a> about this project.  Please leave any comments there.</p>
+<p>There is <a href="http://s.mylesandmyles.info/blog/2015/03/02/r-functions-and-such/">a blog post</a> about this repository.  Please leave any comments there.</p>
 
 <p>-[ <strong>scripts</strong> ]-</p>
 <ul>
