@@ -1,8 +1,7 @@
 ## download_and_unzip.R
 ## by Steve Myles
-## http://steve.mylesandmyles.info/
+## http://s.mylesandmyles.info/
 ## 2 March 2015 (updated 11 June 2015)
-## documentation:  http://projects.mylesandmyles.info/R-functions-and-such/download_and_unzip/download_and_unzip.html
 ##
 ## two related functions that download and/or unzip a file from the Internet 
 ## when given a local directory (default name is "data"), a url, and an 

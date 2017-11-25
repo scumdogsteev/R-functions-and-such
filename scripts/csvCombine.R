@@ -1,8 +1,7 @@
 ## csvCombine.R
 ## by Steve Myles
-## http://steve.mylesandmyles.info/
+## http://s.mylesandmyles.info/
 ## 2 March 2015 (updated 11 June 2015)
-## documentation:  http://projects.mylesandmyles.info/R-functions-and-such/csvCombine/csvCombine.html
 ##
 ## "csvCombine" creates a data frame from a user-specified directory's (csv) 
 ## files. the user can specify how many files to combine (default is all in 

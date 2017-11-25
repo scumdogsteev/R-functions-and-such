@@ -1,8 +1,7 @@
 ## printCurrency
 ## by Steve Myles
-## http://steve.mylesandmyles.info/
+## http://s.mylesandmyles.info/
 ## 24 May 2015 (updated 4 June 2015)
-## documentation:  http://projects.mylesandmyles.info/R-functions-and-such/printCurrency/printCurrency.html
 ##
 ## The following function, `printCurrency`, properly formats numbers as 
 ## currency.

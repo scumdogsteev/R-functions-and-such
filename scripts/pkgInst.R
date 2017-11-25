@@ -1,8 +1,7 @@
 ## pkgInst.R
 ## by Steve Myles
-## http://steve.mylesandmyles.info/
+## http://s.mylesandmyles.info/
 ## 2 March 2015 (updated 11 June 2015)
-## documentation:  http://projects.mylesandmyles.info/R-functions-and-such/pkgInst/pkgInst.html
 ##
 ## "pkgInst" is a function that checks whether a set of packages are 
 ## installed and, if not, it installs them and loads them into 
